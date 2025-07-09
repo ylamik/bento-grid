@@ -1,0 +1,62 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+article > * {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px 30px;
+    background-color: rgb(245, 245, 245);
+    font-family:DM Sans;
+    font-size: 18px;
+    border: 2px solid red;
+}
+
+.first-article {
+    background-color: hsl(256, 67%, 59%);
+    border-radius: 12px;
+    color: hsl(0, 0%, 100%);
+    padding: 40px 15px 20px 15px;
+}
+
+.first-article p {
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.first-title {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.first-span {
+    color: hsl(39, 100%, 71%)
+}
+
+.first-italic {
+    font-style: italic;
+}
+
+.img-stars {
+    padding-top: 30px;
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+
+.first-desc {
+    color: rgb(245, 245, 245);
+}
+
+.bento-page {
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+}
