@@ -67,9 +67,27 @@ body {
     padding: 15px 15px 20px 15px;
 }
 
-.second-article p{
+.second-article p, .third-article p{
     margin-top:10px;
     font-size: 22px;
     font-weight: 600;
     line-height:21px ;
 }
+
+.third-article {
+    background-color: hsl(39, 100%, 71%);
+    border-radius: 12px;
+    padding: 15px 15px 0px 15px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.third-article img{
+    width: 72%;
+    margin-top: 15px;
+    margin-bottom: -20px; 
+    padding: 0;
+    display: block;
+}
+
