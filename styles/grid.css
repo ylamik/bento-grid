@@ -67,7 +67,7 @@ body {
     padding: 15px 15px 20px 15px;
 }
 
-.second-article p, .third-article p{
+.second-article p, .third-article p, .fourth-title{
     margin-top:10px;
     font-size: 22px;
     font-weight: 600;
@@ -90,4 +90,19 @@ body {
     padding: 0;
     display: block;
 }
+
+.fourth-article {
+    background-color:hsl(254, 88%, 90%);
+    border-radius: 12px;
+    padding: 15px 15px 25px 15px;
+    text-align: center;
+    line-height: 19px;
+}
+
+.fourth-article img{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+
 
