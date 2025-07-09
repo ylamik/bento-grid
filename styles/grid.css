@@ -14,7 +14,6 @@ body {
     background-color: rgb(245, 245, 245);
     font-family: DM Sans;
     font-size: 18px;
-    border: 2px solid red;
 }
 
 .first-article {
@@ -111,9 +110,9 @@ body {
     padding: 17px 30px 20px 30px;
     text-align: center;
     line-height: 24px;
-    font-size:28px;
+    font-size: 28px;
     font-weight: 600;
-    color:white;
+    color: white;
 }
 
 .fifth-article img {
@@ -127,8 +126,8 @@ body {
     padding: 30px 15px 15px 15px;
 }
 
-.sixth-title{
-    font-size:35px;
+.sixth-title {
+    font-size: 35px;
     font-weight: 600;
 }
 
@@ -138,20 +137,20 @@ body {
 }
 
 .seventh-article {
-    background-color:hsl(31, 66%, 93%);
+    background-color: hsl(31, 66%, 93%);
     border-radius: 12px;
     padding: 20px 20px;
-    font-size:27px;
+    font-size: 27px;
     line-height: 28px;
     font-weight: 600;
 }
 
-.seventh-article span{
+.seventh-article span {
     font-style: italic;
     color: hsl(256, 67%, 59%);
 }
 
-.seventh-article img{
+.seventh-article img {
     width: 67%;
     margin-top: 20px;
 }
@@ -165,8 +164,157 @@ body {
     font-weight: 600;
 }
 
-.eighth-article img{
-    width:78%;
+.eighth-article img {
+    width: 78%;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+@media (min-width: 570px) and (max-width: 999px) {
+    .bento-page{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .first-article{
+        grid-row:1/3;
+    }
+    .third-article{
+        align-items: center;
+        grid-row:2/4;
+    }
+    .third-article img {
+        width: 90%;
+        margin-top:40px;
+    }
+
+    .fourth-article{
+        grid-row:3/6;
+    }
+}
+    
+
+@media (min-width: 1000px) {
+ 
+    .bento-page {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 260px 20px 150px 200px 1fr;
+        padding: 50px 100px;
+        grid-gap: 30px;
+    }
+
+    .first-article {
+        order: 2;
+        grid-column: 2/4;
+        align-items: center;
+    }
+
+    .first-article {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .first-title {
+        font-size: 50px;
+    }
+
+    .first-article p {
+        width: 98%;
+        text-align: center;
+    }
+
+    .first-article img {
+        width: 50%;
+    }
+
+    .second-article {
+        order: 5;
+        grid-row: 2/4;
+        overflow: hidden;
+    }
+
+    .second-article p,
+    .third-article p,
+    .fourth-title {
+        width: 70%;
+    }
+
+    .second-article img {
+        width: 270px;
+    }
+
+    .third-article {
+        grid-row: 2/4;
+        order: 6;
+    }
+
+    .third-article img {
+        width: 165px;
+    }
+
+    .fourth-article {
+        order: 3;
+        grid-column: 4;
+        grid-row: 1/4;
+        text-align: left;
+        overflow: hidden;
+    }
+
+    .fourth-description{
+        line-height: 15px;
+        width:100%;
+    }
+
+    .fourth-title {
+        margin-top: 15px;
+        width:90%;
+    }
+
+    .fourth-article img {
+        width:260px;
+    }
+
+    .fifth-article {
+        order: 8;
+        grid-column: 3/5;
+        display: flex;
+        align-items: center;
+    }
+
+    .fifth-article p {
+          line-height: 30px
+        }
+
+    .fifth-article img {
+        height: 100%;
+        width: auto;
+        padding-top: 20px;
+    }
+
+    .sixth-article {
+        order: 7;
+        grid-column: 2;
+    }
+
+    .seventh-article {
+        order: 1;
+        grid-column: 1 / 2;
+        grid-row: 1 /3;
+    }
+
+    .seventh-article img {
+        width: 70%;
+    }
+
+    .eighth-article {
+        order: 4;
+        grid-row: 3/5;
+    }
+
+    .eighth-article img {
+        width: 100%;
+    }
 }
