@@ -136,3 +136,22 @@ body {
     width: 60%;
     margin-top: 15px;
 }
+
+.seventh-article {
+    background-color:hsl(31, 66%, 93%);
+    border-radius: 12px;
+    padding: 20px 20px;
+    font-size:27px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.seventh-article span{
+    font-style: italic;
+    color: hsl(256, 67%, 59%);
+}
+
+.seventh-article img{
+    width: 67%;
+    margin-top: 20px;
+}
