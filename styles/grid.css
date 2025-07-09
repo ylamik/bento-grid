@@ -120,3 +120,19 @@ body {
     width: 77%;
     margin-bottom: 30px;
 }
+
+.sixth-article {
+    background-color: rgb(252, 250, 253);
+    border-radius: 12px;
+    padding: 30px 15px 15px 15px;
+}
+
+.sixth-title{
+    font-size:35px;
+    font-weight: 600;
+}
+
+.sixth-article img {
+    width: 60%;
+    margin-top: 15px;
+}
