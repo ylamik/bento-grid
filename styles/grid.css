@@ -10,7 +10,7 @@ article>* {
 }
 
 body {
-    margin: 20px 30px;
+    margin: 20px 30px 60px 30px;
     background-color: rgb(245, 245, 245);
     font-family: DM Sans;
     font-size: 18px;
@@ -154,4 +154,19 @@ body {
 .seventh-article img{
     width: 67%;
     margin-top: 20px;
+}
+
+.eighth-article {
+    background-color: hsl(39, 100%, 71%);
+    border-radius: 12px;
+    padding: 20px 20px;
+    font-size: 27px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.eighth-article img{
+    width:78%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
